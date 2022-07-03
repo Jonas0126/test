@@ -1,13 +1,9 @@
 
-.row {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 body {
 	background-color: #FAFAFA;
+}
+.h700{
+        height: 700px;
 }
 .brand {
     margin: 100px auto;
@@ -37,7 +33,7 @@ h1{
 
 .header {
     margin: auto;
-    background-color: lightgray;
+    background-color: #1ba391;
     overflow: hidden;
 }
 
@@ -113,7 +109,10 @@ h1{
 }
 .footer {
     font-size: 15px;
-    padding: 0px 0 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 	background-color: #eee;
 }
 
@@ -202,4 +201,10 @@ form a {
 .page-btn span:hover {
     background: #ff523b;
     color: #fff;
+}
+
+img{
+    width: 200px;
+	height: 200px;
+
 }
