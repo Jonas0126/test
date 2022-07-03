@@ -203,8 +203,8 @@ form a {
     color: #fff;
 }
 
-img{
-    width: 200px;
-	height: 200px;
+.col-3 img{
+    max-width: 250px;
+	max-height: 250px;
 
 }
